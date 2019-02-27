@@ -1,0 +1,163 @@
+.top-header {
+  height: 580px;
+  background-image: url('../images/backnew.jpg');
+  background-position: 50% -30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cintainer {
+  height: 546px;
+  padding-top: 42px;
+  background-image: url('../images/collins3.png');
+  background-position: 46% 34px;
+  background-size: 402px;
+  background-repeat: no-repeat;
+}
+
+.body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0f0b20), to(#0f0b20));
+  background-image: linear-gradient(180deg, #0f0b20, #0f0b20);
+}
+
+.big-headline {
+  margin-top: 401px;
+  font-family: Montserrat, sans-serif;
+  color: #ff8f5d;
+  font-size: 70px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.center {
+  margin-bottom: -41px;
+  padding-bottom: 54px;
+}
+
+.paragraph {
+  display: block;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraph.subheadline {
+  width: 600px;
+  padding-right: 29px;
+  padding-left: 29px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: none;
+}
+
+.twitterbutton {
+  display: block;
+  width: 40%;
+  margin-top: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 22px 0px;
+  border-radius: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2facff), to(#2facff));
+  background-image: linear-gradient(180deg, #2facff, #2facff);
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.bottom {
+  margin-top: 31px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#191633), to(#191633));
+  background-image: linear-gradient(180deg, #191633, #191633);
+}
+
+.bottom-container {
+  padding-top: 52px;
+  padding-bottom: 85px;
+}
+
+.headlinetwo {
+  display: block;
+  width: 60%;
+  margin-right: auto;
+  margin-bottom: 35px;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: Montserrat, sans-serif;
+  color: #fd8f62;
+  font-size: 27px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.charities {
+  display: block;
+  width: 60%;
+  margin-top: 19px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.link {
+  color: #fff;
+}
+
+.link.w--current {
+  color: #2eb4ff;
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+  .headlinetwo {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .big-headline {
+    font-size: 60px;
+    line-height: 51px;
+  }
+  .paragraph.subheadline {
+    width: auto;
+  }
+  .twitterbutton {
+    width: 60%;
+  }
+}
+
+@media (max-width: 479px) {
+  .cintainer {
+    background-position: 50% -44px;
+    background-size: 396px;
+  }
+  .big-headline {
+    margin-top: 322px;
+    font-size: 55px;
+    line-height: 48px;
+  }
+  .paragraph.subheadline {
+    width: auto;
+    margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .twitterbutton {
+    width: 80%;
+  }
+  .headlinetwo {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
